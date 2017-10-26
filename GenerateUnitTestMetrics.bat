@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\OpenCover\OpenCover.Console.exe" -register:user -target:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\mstest.exe" -targetargs:"/noisolation /testcontainer:\"C:\my stuff\ORT courses\Homeworks\HomeWorkOne\UnitTests\bin\Debug\UnitTests.dll\" /resultsfile:C:\Reports\MSTest\.trx" -filter:"+[]" -mergebyhash -output:C:\Reports\MSTest\projectCoverageReport.xml
+
+C:\ReportGenerator\bin\ReportGenerator.exe -reports:"C:\Reports\MSTest\projectCoverageReport.xml" -targetdir:"C:\Reports\CodeCoverage"
